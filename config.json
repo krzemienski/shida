@@ -2,7 +2,7 @@
   "port": "4000",
   "adminAccount": "admin",
   "db": {
-    "servername": "172.16.14.38",
+    "servername": "localhost",
     "DATABASE": "admin",
     "port": 27017,
     "user": "",
