@@ -13,7 +13,7 @@
     "watch-publish": "export NODE_OPTIONS=--openssl-legacy-provider && npm run watch-build & npm run watch-dist",
     "start": "export NODE_OPTIONS=--openssl-legacy-provider && pm2 start server/app.js",
     "lib:h5-swiper": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build --target lib --name page-engine --dest server/public/engine_libs/h5-swiper engine-template/engine-h5-swiper/index.js",
-    "vinny": "export NODE_OPTIONS=--openssl-legacy-provider && yarn dev && yarn dev-server"
+    "": "export NODE_OPTIONS=--openssl-legacy-provider && yarn dev && yarn dev-server"
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
